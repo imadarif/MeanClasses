@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <%include ../partials/angular-material.ejs%>
+    <%include ../partials/controllers.ejs%>
+</head>
+<body ng-app="LoginSession">
+
+<md-toolbar>
+    <h2 class="md-toolbar-tools">
+        <span class="center">Welcome to Express-AngularMaterial</span>
+    </h2>
+</md-toolbar>
+
+<md-content>
+    <md-card>
+        <md-card-content>
+            <h2>Online: <%=userOnline%></h2>
+        </md-card-content>
+    </md-card>
+</md-content>
+
+</body>
+</html>
